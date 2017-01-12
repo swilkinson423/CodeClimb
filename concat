@@ -1,0 +1,96 @@
+file1 = open('./headFoot/header.html', 'r')
+file3 = open('./headFoot/footer.html', 'r')
+file1read = file1.read()
+file3read = file3.read()
+
+
+# ------------index--------------------
+# index
+file2 = open('./body/index.html', 'r')
+fileMain = open('index.html', 'w')
+fileMain.write(file1read + file2.read() + file3read)
+file2.close()
+fileMain.close()
+
+# devArea
+file2 = open('./body/devArea.html', 'r')
+fileMain = open('devArea.html', 'w')
+fileMain.write(file1read + file2.read() + file3read)
+file2.close()
+fileMain.close()
+
+# help
+file2 = open('./body/help.html', 'r')
+fileMain = open('help.html', 'w')
+fileMain.write(file1read + file2.read() + file3read)
+file2.close()
+fileMain.close()
+
+# -----------devArea--------------------
+# dataDev
+file2 = open('./body/devArea/dataDev.html', 'r')
+fileMain = open('dataDev.html', 'w')
+fileMain.write(file1read + file2.read() + file3read)
+file2.close()
+fileMain.close()
+
+# gameDev
+file2 = open('./body/devArea/gameDev.html', 'r')
+fileMain = open('gameDev.html', 'w')
+fileMain.write(file1read + file2.read() + file3read)
+file2.close()
+fileMain.close()
+
+# mobileDev
+file2 = open('./body/devArea/mobileDev.html', 'r')
+fileMain = open('mobileDev.html', 'w')
+fileMain.write(file1read + file2.read() + file3read)
+file2.close()
+fileMain.close()
+
+# otherDev
+file2 = open('./body/devArea/otherDev.html', 'r')
+fileMain = open('otherDev.html', 'w')
+fileMain.write(file1read + file2.read() + file3read)
+file2.close()
+fileMain.close()
+
+# softDev
+file2 = open('./body/devArea/softDev.html', 'r')
+fileMain = open('softDev.html', 'w')
+fileMain.write(file1read + file2.read() + file3read)
+file2.close()
+fileMain.close()
+
+# webDev
+file2 = open('./body/devArea/webDev.html', 'r')
+fileMain = open('webDev.html', 'w')
+fileMain.write(file1read + file2.read() + file3read)
+file2.close()
+fileMain.close()
+
+# ------------languages-----------------
+# languages
+file2 = open('./body/help/languages.html', 'r')
+fileMain = open('languages.html', 'w')
+fileMain.write(file1read + file2.read() + file3read)
+file2.close()
+fileMain.close()
+
+# ------------languages-----------------
+# resources
+file2 = open('./body/help/resources.html', 'r')
+fileMain = open('resources.html', 'w')
+fileMain.write(file1read + file2.read() + file3read)
+file2.close()
+fileMain.close()
+
+# definitions
+file2 = open('./body/help/definitions.html', 'r')
+fileMain = open('definitions.html', 'w')
+fileMain.write(file1read + file2.read() + file3read)
+file2.close()
+fileMain.close()
+
+file1.close()
+file3.close()

@@ -1,0 +1,173 @@
+/* MAIN */
+html {
+	background-color: #143a5e;
+}
+body {
+	font-size: 100%;
+	line-height: 1.6875;
+	color: white;
+	height: auto;
+	margin: 0px 8px 50px 8px;
+	padding: 0px 2px 2px 2px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	background-color: #a1a7af;
+}
+.border {
+	border-style: groove;
+	border-width: 3px;
+	border-color: rgba(200,200,200,0.8);
+}
+
+/* HEADER */
+.navbar-fixed-top {
+	border-bottom-style: groove;
+	border-bottom-width: 2px;
+	padding-bottom: 2px;
+	border-bottom-color: rgba(200,200,200,.8);
+}
+.navbar-toggle {
+	background-color: #236cab; 
+	border-color: rgba(0,0,0,.001);
+}
+.icon-bar {
+	background-color: white;
+}
+.navbar-brand {
+	font-family: 'Molle', cursive;
+	font-size: xx-large;
+	color: white;
+	padding: 15px;
+}
+.navbarList {
+	margin-left: 20px;
+}
+.navbarLink {
+	border-radius: 10px;
+	color: white;
+}
+.navbar-nav > li > a {
+	padding: 5px 10px 5px 10px !important;
+	margin: 10px 10px 10px 0px;
+}
+
+/* BODY */
+.splashRow {
+	overflow: hidden;
+}
+.bodyRow {
+	padding-left: 8%;
+	padding-right: 8%;
+}
+@media screen and (max-width: 1000px) {
+	#bodyRow {
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+}
+@media screen and (max-width: 800px) {
+	#bodyRow {
+		padding-left: 2%;
+		padding-right: 2%;
+	}
+}
+.bodyOverlay {
+	position: absolute; 
+	padding-left: 15px; 
+	padding-top: 15px; 
+	font-family: 'Special Elite', cursive;
+	text-shadow: 1px 1px #000000; 
+	font-size: 220%; 
+	color: red;
+}
+@media screen and (max-width: 480px) {
+	.bodyOverlay {
+		font-size: 180%;
+		padding-left: 15px; 
+		padding-top: 15px; 
+		font-weight: bold;  
+	}
+}
+.bodyContent {
+			min-height: 100px;
+			border-color: red;
+			border-style: solid;
+			border-width: 1px;
+			border-radius: 10px;
+	margin: 20px 0px 10px 0px;
+}
+.bodyText {
+	font-size: 150%;
+}
+.bodyIMG {
+	min-height: 200px;
+	max-height: 300px;
+	padding: 2px;
+	border-radius: 15px;
+	background-size: cover !important;
+	background-repeat:no-repeat !important;
+}
+.bodyInfo {
+	font-size: 110%;
+	position: relative;
+	z-index: 10;
+	width: 92%;
+	margin: 0px 0px 0px 4%;
+	margin-bottom: 5px; 
+	margin-top: -135px; 
+	height: 140px; 
+	background-color: rgba(51, 122, 183, 0.7);
+	padding: 2px;
+	border-radius: 10px;
+	border-style: groove;
+	border-width: 2px;
+	border-color: rgba(200,200,200,1);
+}
+@media screen and (max-width: 480px) {
+	.bodyInfo {
+		font-size: 95%;
+		height: 110px;
+		margin-top: -105px; 
+	}
+}
+
+/* FOOTER */
+.navbarFooter {
+	background-color: #337ab7;
+	margin: 0px;
+	padding: 0px 0px 25px 0px;
+	border-top-width: 2px;
+	border-radius: 0px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+#footerLinks {
+			border-style: solid;
+			border-width: 1px;
+			border-color: red;
+			border-radius: 10px;
+	height: 70px;
+	margin: 10px 0px 10px 0px;
+	padding: 0px 5px 0px 5px;
+}
+.flipboardBox {
+	height: 255px;
+	width: 100%;
+	background-color: rgba(51, 122, 183, 0.7);
+	background-image: url(../img/footer.jpg);
+	background-size: 100%;
+	border-radius: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px;
+}
+.flipboardColumn {
+	padding: 0px;
+	margin: 0px;
+	width: 25%;
+}
+.flipboardCentered {
+	width: 155px;
+	margin-left: auto;
+	margin-right: auto;
+}
